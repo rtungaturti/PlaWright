@@ -4,8 +4,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-    variables:
-  CI: true
+    
 jobs:
   test:
     timeout-minutes: 60
